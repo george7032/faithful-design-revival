@@ -138,21 +138,29 @@ const ELECTRONIC_SERVICES = [
   {
     icon: Cctv,
     title: "CCTV Installation & Surveillance",
+    image: cctvInstallation,
+    alt: "Technician installing a surveillance camera",
     text: "We design, install, monitor, and maintain advanced surveillance systems that provide real-time visibility, evidence management, remote monitoring, and intelligent threat detection.",
   },
   {
     icon: LockKeyhole,
     title: "Access Control Solutions",
+    image: accessControl,
+    alt: "Modern electronic access control device",
     text: "Our access control systems enable organizations to regulate movement, secure sensitive areas, manage visitor access, and maintain detailed access records through modern authentication technologies.",
   },
   {
     icon: Siren,
     title: "Alarm Detection Systems",
+    image: fireAlarm,
+    alt: "Integrated alarm detection panel",
     text: "We provide intrusion alarms, panic alarms, fire detection systems, and integrated alert mechanisms that enable rapid identification and response to security incidents.",
   },
   {
     icon: Fence,
     title: "Perimeter Protection Systems",
+    image: perimeterProtection,
+    alt: "Razor wire perimeter protection",
     text: "Our electric fence and razor-wire security solutions provide an effective first line of defense by detecting, deterring, and preventing unauthorized access to secured premises.",
   },
 ];

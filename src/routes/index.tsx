@@ -165,12 +165,6 @@ const ELECTRONIC_SERVICES = [
   },
 ];
 
-const ELECTRONIC_IMAGES = [
-  { image: cctvInstallation, alt: "Technician installing a surveillance camera" },
-  { image: accessControl, alt: "Modern electronic access control device" },
-  { image: fireAlarm, alt: "Integrated alarm detection panel" },
-  { image: perimeterProtection, alt: "Razor wire perimeter protection" },
-];
 
 const RISK_SERVICES = [
   {

@@ -754,15 +754,15 @@ function Services() {
           </h3>
         </div>
         <div className="mt-8 grid gap-7 sm:grid-cols-2 lg:grid-cols-4">
-          {ELECTRONIC_SERVICES.map((s, i) => (
+          {ELECTRONIC_SERVICES.map((s) => (
             <article
               key={s.title}
               className="group overflow-hidden rounded-3xl border border-gold/15 bg-card shadow-sm transition-shadow hover:shadow-xl"
             >
               <div className="relative h-40 overflow-hidden">
                 <img
-                  src={ELECTRONIC_IMAGES[i].image.url}
-                  alt={ELECTRONIC_IMAGES[i].alt}
+                  src={s.image.url}
+                  alt={s.alt}
                   className="size-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>

@@ -392,13 +392,16 @@ function TopBar() {
     <div className="hidden bg-ink text-cream/90 md:block">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-2 text-xs">
         <div className="flex items-center gap-5">
-          <a
-            href={`tel:${PHONES[0].replace(/\s/g, "")}`}
-            className="inline-flex items-center gap-2 transition-colors hover:text-gold"
-          >
-            <Phone className="size-3.5 text-gold" aria-hidden />
-            {PHONES.join(" • ")}
-          </a>
+          {PHONES.map((phone) => (
+            <a
+              key={phone}
+              href={`tel:${phone.replace(/\s/g, "")}`}
+              className="inline-flex items-center gap-2 transition-colors hover:text-gold"
+            >
+              <Phone className="size-3.5 text-gold" aria-hidden />
+              {phone}
+            </a>
+          ))}
         </div>
         <div className="flex items-center gap-5">
           <a
